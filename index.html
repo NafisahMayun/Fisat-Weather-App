@@ -10,7 +10,7 @@
     <title>Fisat Weather App</title>
 </head>
 <body>
-    <div>
+    <div class="weather-app">
     <header>
         <form class="search-form">
             <input type="search" placeholder="Enter your city"
@@ -21,18 +21,18 @@
         </form>
     </header>
     <main>
-        <div>
+        <div class="app-data">
             <div>
-                <h1>Yaounde</h1>
-                <p>
+                <h1 class="app-city">Yaounde</h1>
+                <p class="app-details">
                     Friday 08:16, mostly cloudy <br />
-                    Humidity: 100%, Wind: 0km/h
+                    Humidity: <strong>100%</strong>, Wind: <strong>0km/h</strong>
                 </p>
             </div>
-            <div>
-             <div>🌤️</div>
-             <div>22</div>
-             <div>°C</div>
+            <div class="app-temp-container">
+             <div class="app-icon">🌤️</div>
+             <div class="app-temp">22</div>
+             <div class="app-unit">°C</div>
           </div>
         </div>
     </main>
