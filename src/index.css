@@ -22,7 +22,7 @@ header {
     border: none;
     border-radius: 6px;
     width: 80%;
-    font-size: 15x;
+    font-size: 16x;
     padding: 15px 20px;
 }
 
@@ -57,7 +57,7 @@ main {
 }
 
 .app-details strong {
-  color: #ECF8F9;
+  color: #FEE343;
   font-weight: 300;
 }
 
