@@ -24,15 +24,16 @@
     <main>
         <div class="app-data">
             <div>
-                <h1 class="app-city" id="city">Yaounde</h1>
+                <h1 class="app-city" id="city"></h1>
                 <p class="app-details">
-                    Friday 08:16, mostly cloudy <br />
-                    Humidity: <strong>100%</strong>, Wind: <strong>0km/h</strong>
+                    <span id="time"></span>,
+                    <span id="description"></span> <br />
+                    Humidity: <strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
                 </p>
             </div>
             <div class="app-temp-container">
-             <div class="app-icon"><img src="src/images/cloud.png" alt="cloud icon"> </div>
-             <div class="app-temp" id="temperature">22</div>
+             <div id="icon"></div>
+             <div class="app-temp" id="temperature"></div>
              <div class="app-unit">°C</div>
           </div>
         </div>
